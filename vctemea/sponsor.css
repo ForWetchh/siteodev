@@ -1,0 +1,33 @@
+.sponsor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.sponsor .kutu{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.sponsor .kutu img{
+    display: flex;
+    width: 450px;
+    padding-right:50px ;
+}
+
+.sponsor .kutu p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #ffff;
+    letter-spacing: 0.7px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

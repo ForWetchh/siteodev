@@ -1,0 +1,155 @@
+/* Navbar başlangıç */
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 600px;
+    display: flex;
+    height: 60px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .links a {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar .links a::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 62, 62);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s ease;
+}
+
+.navbar .links a:hover::after {
+    width: 100%;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 50px;
+}
+
+/* Navbar bitiş */
+
+#hero video{
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index:10;
+    object-fit: cover;
+
+  }
+/* Haberler bölümü başlangıç */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.container .box {
+    border: 1px solid rgb(184, 184, 184);
+    width: 400px;
+    margin: 20px 5px;
+    background-color: #ededed;
+}
+
+.box img {
+    max-width: 100%;
+}
+
+.box-text{
+    text-align: start;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.box p{
+    display: flex;
+    padding-left: 5px;
+    padding-top: 50px;
+}
+.news-text{
+    display: flex;
+    text-align: center;
+    margin: 20px 250px;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+/* Haberler bitiş */
+
+/* Sayfa sonu */
+
+.sayfasonu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111111;
+    width: 100%;
+}
+
+.sayfasonu .ikonlar{
+    font-size: 0.9rem;
+    padding-top: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.sayfasonu .ikonlar i{
+    color: rgb(255, 255, 255);
+    background-color: #282828;
+    border: none;
+    padding: 7px 7px;
+    border-radius: 10px;
+}
+
+.sayfasonu .riotlogo img{
+    display: flex;
+    width: 100px;
+    padding-top: 50px;
+}
+
+.sayfasonu .haklartext p{
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+    color: #7E7E7E;
+    font-size: 0.65rem;
+}
+
+.sayfasonu .iletisimtext h3{
+display: flex;
+text-align: center;
+padding: 15px 0;
+color: #7E7E7E;
+font-size: 1rem;
+
+}
+
+.sayfasonu .iletisimtext h3:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.4s ease;
+}
+
+/* Sayfa sonu */
